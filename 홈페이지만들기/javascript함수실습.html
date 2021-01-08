@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript 공부</title>
+    </head>
+
+    <body>
+        <script>
+
+            alert('자바스크립트 함수 연습중입니다');
+            function test(a,b){
+                alert(testing(a,b));
+            }
+
+            function testing(a,b){
+                return a * b;
+            }
+
+            function test2(a,b,c){
+                alert(a);
+                alert(b);
+                alert(c);
+            }
+
+            function practice(a,b,c){
+                alert(test3(a,b,c));
+            }
+
+            function test3(a,b,c){
+                return a+b+c;
+            }
+
+        </script>
+
+        <a href="javascript:alert('홍길동')">이름</a>
+        <a href="javascript:alert('20세')">나이</a>
+        <a href="javascript:test(1,2)">눌러봐</a>
+        <a href="javascript:test2(1,2,3)">테스트</a>
+        <a href="javascript:practice(1,2,3)">연습</a>
+    
+    </body>
+</html>
